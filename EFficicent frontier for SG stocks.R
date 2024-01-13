@@ -126,7 +126,7 @@ chart.Weights(rand_p)
 # Efficient frontier
 port_msd <- add.objective(portfolio = port, type = "risk", name = "StdDev")
 minvar1 <- optimize.portfolio(R = data_p2, portfolio = port_msd,
-                              optimize_method = "ROI", trace = TRUE) #Error??
+                              optimize_method = "ROI", trace = TRUE)
 minvar1
 
 #fPortfolio 
